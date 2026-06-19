@@ -159,6 +159,8 @@ Données brutes (SONATUR)
 <!-- Remplacez par le chemin de votre graphique exporté depuis R -->
 ![Indice des prix](./figures/indice_prix_2018_2024.png)
 
+<img width="857" height="521" alt="image" src="https://github.com/user-attachments/assets/b1a378b3-dc38-4a27-8ecc-bd2b5a4043eb" />
+
 > 📷 *Comparaison indice réel vs indice hédonique*
 
 ![Comparaison indices](./figures/comparaison_indices.png)
