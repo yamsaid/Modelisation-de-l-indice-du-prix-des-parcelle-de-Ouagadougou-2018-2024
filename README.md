@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:16213e&height=180&section=header&text=Modélisation%20de%20l’indice%20du%20prix%20des%20parcelle%20%F0%9F%8F%99%EF%B8%8F&fontSize=32&fontColor=ffffff&desc=dans%20la%20ville%20de%20Ouagadougou%20de%202018%20à%202024&descSize=18&descAlignY=80)
+![header](https://capsule-render.vercel.app/api?type=cylinder&color=0:16213e,100:0f3460&height=220&text=Modélisation%20de%20l’indice%20du%20prix%20des%20parcelle%20dans%20la%20ville%20de%20Ouagadougou%20de%202018%20à%202024Index&fontSize=25&fontColor=ffffff&desc=Econometric%20and%20Machine%20Learning%20Approaches&descSize=18&descAlignY=75)
 
 <p align="center">
   <img src="https://img.shields.io/badge/Langage-R-276DC3?style=for-the-badge&logo=r&logoColor=white"/>
