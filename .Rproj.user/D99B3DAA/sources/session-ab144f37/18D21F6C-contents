@@ -1,0 +1,307 @@
+---
+title: "TPQUANTI"
+format: pdf
+editor: visual
+---
+
+# `#07-05-2025`
+
+# Importation des données
+
+```{r}
+mesdonnees  <- read.csv("data/Poids_naissance.csv",sep = "")
+```
+
+Ce jeux de données est extrait de birthwt de MASS
+
+```{r}
+library(MASS)
+```
+
+```{r}
+?birthwt
+```
+
+```{r}
+str(mesdonnees)
+
+```
+
+```{r}
+mesdonnees = data.frame(mesdonnees)
+```
+
+# Recodage
+
+#Conversion de Livre en Kg : 1livre = 0,453592kg
+
+```{r}
+#Conversion de Livre en Kg : 1livre = 0,453592kg
+kg = 0.453592
+mesdonnees[,"LWT"] = mesdonnees$LWT*kg
+```
+
+Autrement
+
+```{r}
+library(dplyr)
+
+mesdonnees=mesdonnees%>%
+  mutate( LWT=LWT*0.453592)
+
+```
+
+```         
+```
+
+```{r}
+transform(mesdonnees,LWT=LWT*0.4535923)
+```
+
+# selection de variables
+
+```{r}
+library(dplyr)
+```
+
+```{r}
+newdata <- mesdonnees %>%
+  select(BWT, AGE, LWT, SMOKE)
+
+
+```
+
+```{r}
+newdata= mesdonnees[c("AGE", "LWT","SMOKE")]
+```
+
+# Cas de violation d'hypothèses
+
+### Multicollinéarité
+
+library(performance)
+
+#Multicollinéarité dbase=data("mtcars") mod.rlm1=lm(mpg\~.,data=mtcars) summary(mod.rlm1) check_collinearity(mod.rlm1)
+
+# toutes les variables ayant VIF (fort) superieur à 10 doivent etre suprimer
+
+mod.rlm2 \<- update(mod.rlm1, .\~.-disp)
+
+check_collinearity(mod.rlm2)
+
+# supprimer cyl
+
+mod.rlm3 \<- update(mod.rlm2, .\~.-cyl)
+
+check_collinearity(mod.rlm3)
+
+summary(mod.rlm3)
+
+# formellement on elimine tous ce qui depasse 5
+
+mod.rlm4 \<- update(mod.rlm3, .\~.-hp)
+
+check_collinearity(mod.rlm4)
+
+mod.rlm5 \<- update(mod.rlm4, .\~.-wt)
+
+check_collinearity(mod.rlm5)
+
+summary(mod.rlm5)
+
+### L'héteroscedasticité
+
+test de *Breusch-Pagan*
+
+```{r}
+check_heteroscedasticity()
+```
+
+### l'autocorrelation
+
+test de Durbin Watson
+
+```{r}
+check_autocorrelation()
+```
+
+### la normalité
+
+# 2025-05-13
+
+## Exercice d'application
+
+\# Régression linéaire complète
+
+Nous allons réviser ce qui a été vu dans le TP. 
+
+Pour cela, vous allez procéder à une régression linéaire complète. 
+
+Nous exploiterons la source de données NHANES (National Health and Nutrition Examination Survey) 
+
+qui est la principale source  d’informations  sur l’état  de  santé  et  l’état  nutritionnel
+
+ mesurés  de  la  population  civile   des États-Unis. 
+
+Nous utiliserons le jeu de données NHANES natif de R, données collectées entre 2009 et 2012. 
+
+Question 1- Vous chargerez le jeu de données NHANES et vous sélectionnerez les variables suivantes
+
+```{r}
+data(NHANES)
+```
+
+```{r}
+install.packages("NHANES")
+```
+
+```{r}
+library(NHANES)
+```
+
+```{r}
+data(NHANES)
+
+```
+
+```{r}
+nhanes <- NHANES
+```
+
+```{r}
+str(nhanes)
+```
+
+```{r}
+?NHANES
+
+```
+
+```{r}
+library(dplyr)
+```
+
+Selection des variables
+
+```{r}
+adults<-nhanes %>%
+  select(BMI, Poverty,PhysActiveDays,SleepHrsNight,Diabetes,SmokeNow,Gender)
+
+```
+
+```{r}
+library(labelled)
+```
+
+Diagnostique des variables
+
+```{r}
+look_for(adults)
+```
+
+Construction du modèle lineaire
+
+```{r}
+model=lm(
+  BMI ~ ., data = adults
+)
+```
+
+```{r}
+summary(model)
+```
+
+```{r}
+library(broom)
+```
+
+```{r}
+?broom::tidy
+```
+
+```{r}
+broom::tidy(model,conf.int = FALSE,conf.level = 0.97)
+```
+
+```{r}
+glance(model)
+```
+
+représentant les descriptions suivantes  (dans cet ordre) dans un objet appelé adults
+
+\- indice de masse corporelle (variable dépendante)
+
+\- Ratio du revenu familial par rapport aux seuils de pauvreté.  Des nombres plus petits indiquent un niveau de pauvreté plus élevé
+
+\- Nombre de jours dans une semaine type où le participant pratique une activité d'intensité modérée ou vigoureuse.  Rapporté pour les participants âgés de 12 ans ou plus. 
+
+\- Nombre d'heures de sommeil nocturne habituellement obtenues par le participant à l'étude en semaine ou les jours de travail, tel que déclaré par lui-même. 
+
+Rapporté pour les participants âgés de 16 ans ou plus
+
+\- Participant souffrant  de diabète. Rapporté pour les participants âgés de 1 an ou plus par Oui ou Non
+
+-  Participant à l'étude qui fume actuellement des cigarettes régulièrement.  Rapporté pour les participants âgés de 20 ans ou plus par Oui ou Non, à condition qu'ils aient répondu Oui à la question indiquant s'ils avaient fumé 100 cigarettes ou plus au cours de leur vie. Tous les sujets qui n'ont pas fumé 100 cigarettes ou plus sont indiqués comme NA 
+
+\- sexe du participant à l'étude codé comme masculin ou féminin.
+
+Question 2 :  Si le jeu de données vous semble sans soucis particulier, procéder à une régression linéaire des variables du jeu de données adults. Sinon, corriger 
+
+ce qui vous semble nécessaire cela avant de faire la régression
+
+Question 3 : A l'aide des fonctions tidy et glance du package broom, afficher les coefficiens estimés, leur écart type et un intervalle de confiance avec un seuil de 3%
+
+et les métriques du modèle estimé 
+
+```{r}
+# subdiviser l'ecran
+par(mfrow= c(2,2))
+plot(model)
+```
+
+**Question 4** : Tester l'hypothèse de linéarité 
+
+```{r}
+par(mfrow = c(1, 1))
+
+par(mar = c(5, 4, 4, 2) + 0.1)
+
+plot(model$fitted.values, resid(model),
+
+xlab = "Valeurs ajustées",
+
+ylab = "Résidus",
+
+main = "Test de linéarité : Résidus vs Valeurs ajustées")
+
+abline(h = 0, col = "red")
+
+lines(lowess(model$fitted.values, resid(model)), col = "blue", lwd = 2)
+```
+
+**Question 5** : Apprécier la normalité des résidus graphiquement puis procéder à un test de shapiro et de jarque- bera(sans utiliser la librairie performance)
+
+```{r}
+shapiro.test(resid(model))
+```
+
+```{r}
+?shapiro.test
+```
+
+```{r}
+jarque.bera.test(residuals(model))
+
+
+```
+
+```{r}
+```
+
+Question 6 : Tester l'hypothèse d'homocédasticité graphiquement puis avec un test de breusch-pagan et un test de white et conclure (sans utiliser la librairie performance)
+
+library(olsrr)
+
+ols_test_breusch_pagan(mod_1)
+
+`lmtest::bptest(mod_1)`
