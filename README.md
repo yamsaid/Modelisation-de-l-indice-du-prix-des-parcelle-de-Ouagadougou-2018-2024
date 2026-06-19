@@ -1,5 +1,7 @@
 ![header](https://capsule-render.vercel.app/api?type=cylinder&color=0:16213e,100:0f3460&height=220&text=Modélisation%20de%20l’indice%20du%20prix%20des%20parcelle%20dans%20la%20ville%20de%20Ouagadougou%20de%202018%20à%202024Index&fontSize=25&fontColor=ffffff&desc=Econometric%20and%20Machine%20Learning%20Approaches&descSize=18&descAlignY=75)
 
+![header](https://capsule-render.vercel.app/api?type=venom&height=220&color=0:0f2027,50:203a43,100:2c5364&text=Modélisation%20de%20l’indice%20du%20prix%20des%20parcelle%20dans%20la%20ville%20de%20Ouagadougou%20de%202018%20à%202024%20Index&fontColor=ffffff&fontSize=36&animation=fadeIn&desc=Hedonic%20Regression%20|%20GAM%20|%20XGBoost&descSize=18&descAlignY=75)
+
 <p align="center">
   <img src="https://img.shields.io/badge/Langage-R-276DC3?style=for-the-badge&logo=r&logoColor=white"/>
   <img src="https://img.shields.io/badge/M%C3%A9thode-H%C3%A9donique-4CAF50?style=for-the-badge"/>
