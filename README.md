@@ -319,10 +319,9 @@ Les résultats peuvent être utilisés par :
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-## 📄 Lire le rapport en entier
+## 📄 Lire le rapport
 
-![Report Cover](<img width="717" height="888" alt="image" src="https://github.com/user-attachments/assets/fb6a0445-c0f7-483b-9437-38ae0e672a2d" />
-)
+<img width="717" height="888" alt="image" src="https://github.com/user-attachments/assets/fb6a0445-c0f7-483b-9437-38ae0e672a2d" />
 
 [Read Full Report](rapport.pdf)
 
