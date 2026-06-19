@@ -37,11 +37,6 @@ Les résultats mettent en évidence d'importantes fluctuations du marché foncie
 
 **Compétences mobilisées** : Analyse statistique, économétrie, modélisation hédonique, machine learning, visualisation de données et aide à la décision.
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
-
-[Lire le rapport en entier](#)
-
-
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:4facfe,100:00f2fe&height=3" width="100%"/>
 
 ## 📌 Contexte
@@ -322,8 +317,16 @@ Les résultats peuvent être utilisés par :
 
 > ⚠️ **Note :** Les données SONATUR sont confidentielles et ne sont pas publiées dans ce dépôt.
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:4facfe,100:00f2fe&height=3" width="100%"/>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
+## 📄 Lire le rapport en entier
+
+![Report Cover](<img width="717" height="888" alt="image" src="https://github.com/user-attachments/assets/fb6a0445-c0f7-483b-9437-38ae0e672a2d" />
+)
+
+[Read Full Report](rapport.pdf)
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:4facfe,100:00f2fe&height=3" width="100%"/>
 
 
 ## 📚 Références
