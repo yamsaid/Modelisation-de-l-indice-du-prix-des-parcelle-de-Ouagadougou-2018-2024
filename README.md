@@ -11,7 +11,16 @@
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:4facfe,100:00f2fe&height=3" width="100%"/>
 
-## 🚀 Key Results
+
+## Résumé
+
+Ce projet vise à analyser et modéliser l'évolution des prix des parcelles dans la ville de Ouagadougou entre 2018 et 2024 à partir de données de transactions foncières. L'étude repose sur une approche hédonique permettant d'estimer l'influence des caractéristiques des parcelles (superficie, localisation, usage, modalités de paiement, statut administratif, etc.) sur leur valeur.
+
+Après l'évaluation de modèles économétriques classiques, un modèle d'apprentissage automatique basé sur XGBoost a été développé afin de mieux capturer les relations non linéaires et les interactions complexes entre les variables. Les performances obtenues ont démontré une excellente capacité prédictive et une forte robustesse du modèle.
+
+Les résultats mettent en évidence d'importantes fluctuations du marché foncier sur la période étudiée et identifient la superficie, la taxe de jouissance et les modalités de paiement comme les principaux déterminants du prix des parcelles. Le projet illustre l'intérêt des méthodes statistiques avancées et du machine learning pour le suivi des marchés immobiliers et l'aide à la décision en matière d'aménagement urbain.
+
+### 🚀 Key Results
 
 ✔ 1 488 transactions foncières analysées
 
@@ -25,13 +34,6 @@
 
 ✔ Application à l'aide à la décision foncière
 
-## Résumé
-
-Ce projet vise à analyser et modéliser l'évolution des prix des parcelles dans la ville de Ouagadougou entre 2018 et 2024 à partir de données de transactions foncières. L'étude repose sur une approche hédonique permettant d'estimer l'influence des caractéristiques des parcelles (superficie, localisation, usage, modalités de paiement, statut administratif, etc.) sur leur valeur.
-
-Après l'évaluation de modèles économétriques classiques, un modèle d'apprentissage automatique basé sur XGBoost a été développé afin de mieux capturer les relations non linéaires et les interactions complexes entre les variables. Les performances obtenues ont démontré une excellente capacité prédictive et une forte robustesse du modèle.
-
-Les résultats mettent en évidence d'importantes fluctuations du marché foncier sur la période étudiée et identifient la superficie, la taxe de jouissance et les modalités de paiement comme les principaux déterminants du prix des parcelles. Le projet illustre l'intérêt des méthodes statistiques avancées et du machine learning pour le suivi des marchés immobiliers et l'aide à la décision en matière d'aménagement urbain.
 
 **Compétences mobilisées** : Analyse statistique, économétrie, modélisation hédonique, machine learning, visualisation de données et aide à la décision.
 
@@ -173,22 +175,22 @@ Données brutes (SONATUR)
 
 ### Visualisations
 
-- *Indice des prix des parcelles predit par le modèle linéaire*
+### *Indice des prix des parcelles predit par le modèle linéaire*
 
 <img width="581" height="310" alt="image" src="https://github.com/user-attachments/assets/7638f077-c9ac-47c8-8ed4-c36b544b15c9" />
 
-- *Calcul de l’indice de prix base 2018*
+### *Calcul de l’indice de prix base 2018*
 <img width="605" height="322" alt="image" src="https://github.com/user-attachments/assets/4312c8e2-4632-412e-a478-cdbdb33c2028" />
 
-- *L'adaptation du modèle aux perturbations*
+### *L'adaptation du modèle aux perturbations*
 
 <img width="783" height="557" alt="image" src="https://github.com/user-attachments/assets/45192e20-ad6d-4db8-b097-88cf43b5c4ed" />
 
-- *Évolution de l'indice de prix de 2018 à 2024*
-- 
+### *Évolution de l'indice de prix de 2018 à 2024*
+
 <img width="857" height="521" alt="image" src="https://github.com/user-attachments/assets/b1a378b3-dc38-4a27-8ecc-bd2b5a4043eb" />
 
-- *Importance des variables dans le modèle XGBoost*
+### *Importance des variables dans le modèle XGBoost*
   
 <img width="550" height="223" alt="image" src="https://github.com/user-attachments/assets/b4355bf1-dab2-4101-8d93-e5a7c34ddf10" />
 
