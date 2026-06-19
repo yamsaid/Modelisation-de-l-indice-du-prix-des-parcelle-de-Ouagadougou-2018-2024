@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=cylinder&color=0:16213e,100:0f3460&height=200&width=500&text=Modélisation%20de%20l’indice%20du%20prix%20des%20parcelle%20dans%20la%20ville%20de%20Ouagadougou%20de%202018%20à%202024%20Index&fontSize=25&fontColor=ffffff&desc=Econometric%20and%20Machine%20Learning%20Approaches&descSize=18&descAlignY=75)
+![header](https://capsule-render.vercel.app/api?type=cylinder&color=0:16213e,100:0f3460&height=250&text=Modélisation%20de%20l’indice%20du%20prix%20des%20parcelle%20dans%20la%20ville%20de%20Ouagadougou%20de%202018%20à%202024%20Index&fontSize=29&fontColor=ffffff&desc=Econometric%20and%20Machine%20Learning%20Approaches&descSize=18&descAlignY=75)
 
 
 <p align="center">
