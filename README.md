@@ -21,6 +21,11 @@ Les résultats mettent en évidence d'importantes fluctuations du marché foncie
 
 **Compétences mobilisées** : Analyse statistique, économétrie, modélisation hédonique, machine learning, visualisation de données et aide à la décision.
 
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+
+[Lire le rapport en entier](#)
+
+
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:4facfe,100:00f2fe&height=3" width="100%"/>
 
 ## 📌 Contexte
@@ -215,17 +220,23 @@ L'indice hédonique révèle une **évolution instable** du marché foncier ouag
 
 ## 👥 Équipe & Encadrement
 
-### Réalisé par — Groupe 4
+### Réalisé par
 
 <table align="center">
   <tr>
     <td align="center">
       <b>NIAMPA Abdoul Fataho</b><br/>
       <sub>Licence Analyse Statistique — ISSP</sub>
+      <a href="https://github.com/fatah">
+        <img src="https://img.shields.io/badge/GitHub-yamsaid-181717?style=flat-square&logo=github"/>
+      </a>
     </td>
     <td align="center">
       <b>SAWADOGO Pengdwendé Orianne-Aurele</b><br/>
       <sub>Licence Analyse Statistique — ISSP</sub>
+      <a href="https://github.com/#">
+        <img src="https://img.shields.io/badge/GitHub-yamsaid-181717?style=flat-square&logo=github"/>
+      </a>
     </td>
     <td align="center">
       <b>YAMEOGO Saïdou</b><br/>
@@ -273,6 +284,8 @@ L'indice hédonique révèle une **évolution instable** du marché foncier ouag
 > ⚠️ **Note :** Les données SONATUR sont confidentielles et ne sont pas publiées dans ce dépôt.
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:4facfe,100:00f2fe&height=3" width="100%"/>
+
+
 
 ## 📚 Références
 
