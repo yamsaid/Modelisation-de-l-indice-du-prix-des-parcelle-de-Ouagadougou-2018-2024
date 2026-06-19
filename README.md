@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=cylinder&color=0:16213e,100:0f3460&height=180&text=Modélisation%20de%20l’indice%20du%20prix%20des%20parcelles%20-%20Ouagadougou%202018%20-%202024&fontSize=22&fontColor=ffffff&desc=Econométrie%20des%20variables%20quantitatives%20|%20Machine%20Learning&descSize=15&descAlignY=75)
+![header](https://capsule-render.vercel.app/api?type=cylinder&color=0:16213e,100:0f3460&height=180&text=Modélisation%20de%20l’indice%20du%20prix%20des%20parcelles%20-%20Ouagadougou%202018%20-%202024&fontSize=22&fontColor=ffffff&desc=Econométrie%20des%20Variables%20Quantitatives%20|%20Machine%20Learning&descSize=15&descAlignY=75)
 
 
 <p align="center">
@@ -10,6 +10,20 @@
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:4facfe,100:00f2fe&height=3" width="100%"/>
+
+## 🚀 Key Results
+
+✔ 1 488 transactions foncières analysées
+
+✔ 3 modèles comparés : LM, GAM, XGBoost
+
+✔ XGBoost : R² jusqu'à 0.996
+
+✔ Superficie = facteur le plus influent
+
+✔ Construction d'un indice hédonique 2018–2024
+
+✔ Application à l'aide à la décision foncière
 
 ## Résumé
 
@@ -204,6 +218,29 @@ L'indice hédonique révèle une **évolution instable** du marché foncier ouag
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:4facfe,100:00f2fe&height=3" width="100%"/>
 
+## 🌍 Impact
+
+Ce projet fournit un indicateur objectif de suivi du marché foncier urbain à Ouagadougou.
+
+Les résultats peuvent être utilisés par :
+
+- collectivités territoriales
+- urbanistes
+- investisseurs immobiliers
+- chercheurs
+- décideurs publics
+
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:4facfe,100:00f2fe&height=3" width="100%"/>
+
+## ⚠️ Limites
+
+- Données limitées aux transactions SONATUR
+- Variables socio-économiques indisponibles
+- Absence de coordonnées géographiques précises
+- Généralisation limitée hors Ouagadougou
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:4facfe,100:00f2fe&height=3" width="100%"/>
+
 ## 🧠 Compétences développées
 
 | Domaine | Compétences |
@@ -228,14 +265,14 @@ L'indice hédonique révèle une **évolution instable** du marché foncier ouag
       <b>NIAMPA Abdoul Fataho</b><br/>
       <sub>Licence Analyse Statistique — ISSP</sub>
       <a href="https://github.com/fatah">
-        <img src="https://img.shields.io/badge/GitHub-yamsaid-181717?style=flat-square&logo=github"/>
+        <img src="https://img.shields.io/badge/GitHub-fatah-181717?style=flat-square&logo=github"/>
       </a>
     </td>
     <td align="center">
       <b>SAWADOGO Pengdwendé Orianne-Aurele</b><br/>
       <sub>Licence Analyse Statistique — ISSP</sub>
       <a href="https://github.com/#">
-        <img src="https://img.shields.io/badge/GitHub-yamsaid-181717?style=flat-square&logo=github"/>
+        <img src="https://img.shields.io/badge/GitHub-aurele-181717?style=flat-square&logo=github"/>
       </a>
     </td>
     <td align="center">
