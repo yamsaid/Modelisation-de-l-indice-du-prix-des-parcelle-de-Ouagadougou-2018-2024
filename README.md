@@ -10,6 +10,18 @@
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:4facfe,100:00f2fe&height=3" width="100%"/>
 
+## Résumé
+
+Ce projet vise à analyser et modéliser l'évolution des prix des parcelles dans la ville de Ouagadougou entre 2018 et 2024 à partir de données de transactions foncières. L'étude repose sur une approche hédonique permettant d'estimer l'influence des caractéristiques des parcelles (superficie, localisation, usage, modalités de paiement, statut administratif, etc.) sur leur valeur.
+
+Après l'évaluation de modèles économétriques classiques, un modèle d'apprentissage automatique basé sur XGBoost a été développé afin de mieux capturer les relations non linéaires et les interactions complexes entre les variables. Les performances obtenues ont démontré une excellente capacité prédictive et une forte robustesse du modèle.
+
+Les résultats mettent en évidence d'importantes fluctuations du marché foncier sur la période étudiée et identifient la superficie, la taxe de jouissance et les modalités de paiement comme les principaux déterminants du prix des parcelles. Le projet illustre l'intérêt des méthodes statistiques avancées et du machine learning pour le suivi des marchés immobiliers et l'aide à la décision en matière d'aménagement urbain.
+
+**Compétences mobilisées** : Analyse statistique, économétrie, modélisation hédonique, machine learning, visualisation de données et aide à la décision.
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:4facfe,100:00f2fe&height=3" width="100%"/>
+
 ## 📌 Contexte
 
 Le développement urbain rapide de **Ouagadougou** s'accompagne d'une pression croissante sur les ressources foncières. Face à l'intensification des transactions immobilières, les acteurs publics et privés ont besoin d'outils de mesure fiables pour suivre l'évolution réelle des prix des parcelles.
