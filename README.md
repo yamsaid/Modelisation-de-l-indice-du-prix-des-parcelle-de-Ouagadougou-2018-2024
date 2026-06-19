@@ -154,24 +154,24 @@ Données brutes (SONATUR)
 
 ### Visualisations
 
-> 📷 *Évolution de l'indice des prix (2018–2024)*
+- *Indice des prix des parcelles predit par le modèle linéaire*
 
-<!-- Remplacez par le chemin de votre graphique exporté depuis R -->
-![Indice des prix](./figures/indice_prix_2018_2024.png)
+<img width="581" height="310" alt="image" src="https://github.com/user-attachments/assets/7638f077-c9ac-47c8-8ed4-c36b544b15c9" />
 
+- *Calcul de l’indice de prix base 2018*
+<img width="605" height="322" alt="image" src="https://github.com/user-attachments/assets/4312c8e2-4632-412e-a478-cdbdb33c2028" />
+
+- *L'adaptation du modèle aux perturbations*
+
+<img width="783" height="557" alt="image" src="https://github.com/user-attachments/assets/45192e20-ad6d-4db8-b097-88cf43b5c4ed" />
+
+- *Évolution de l'indice de prix de 2018 à 2024*
+- 
 <img width="857" height="521" alt="image" src="https://github.com/user-attachments/assets/b1a378b3-dc38-4a27-8ecc-bd2b5a4043eb" />
 
-> 📷 *Comparaison indice réel vs indice hédonique*
-
-![Comparaison indices](./figures/comparaison_indices.png)
-
-> 📷 *Importance des variables dans le modèle XGBoost*
-
-![Importance variables](./figures/importance_variables.png)
-
-> 📷 *Résidus par année*
-
-![Résidus](./figures/residus_par_annee.png)
+- *Importance des variables dans le modèle XGBoost*
+  
+<img width="550" height="223" alt="image" src="https://github.com/user-attachments/assets/b4355bf1-dab2-4101-8d93-e5a7c34ddf10" />
 
 ### Principaux déterminants du prix au m²
 
