@@ -314,7 +314,7 @@ Les résultats peuvent être utilisés par :
 └── 📋 rapport/
     └── rapport_final.pdf
 ```
-
+[!WARNING]
 > ⚠️ **Note :** Les données SONATUR sont confidentielles et ne sont pas publiées dans ce dépôt.
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:4facfe,100:00f2fe&height=3" width="100%"/>
@@ -327,7 +327,7 @@ Les résultats peuvent être utilisés par :
 
 [Read Full Report](rapport.pdf)
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:4facfe,100:00f2fe&height=3" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:4facfe,100:00f2fe&height=3" width="100%"/>
 
 
 ## 📚 Références
