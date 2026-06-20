@@ -322,7 +322,7 @@ Les résultats peuvent être utilisés par :
 ## 📄 Lire le rapport
 
 <p align="center">
-  <img width="400" height="888" alt="image" src="https://github.com/user-attachments/assets/fb6a0445-c0f7-483b-9437-38ae0e672a2d" />
+  <img width="700" height="888" alt="image" src="https://github.com/user-attachments/assets/fb6a0445-c0f7-483b-9437-38ae0e672a2d" />
 </p>
 
 [Read Full Report](rapport.pdf)
