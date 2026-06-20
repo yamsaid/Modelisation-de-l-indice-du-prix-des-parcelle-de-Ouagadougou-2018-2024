@@ -314,7 +314,8 @@ Les résultats peuvent être utilisés par :
 └── 📋 rapport/
     └── rapport_final.pdf
 ```
-[!WARNING]
+> [!WARNING]
+> Les données SONATUR sont confidentielles.
 > ⚠️ **Note :** Les données SONATUR sont confidentielles et ne sont pas publiées dans ce dépôt.
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:4facfe,100:00f2fe&height=3" width="100%"/>
